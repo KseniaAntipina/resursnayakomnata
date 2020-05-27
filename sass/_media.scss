@@ -1,0 +1,142 @@
+
+ @media  (max-width: 1300px) {
+    .banner_wrap {
+        background-size: cover;
+        background-position-x: center;
+    }
+
+    .request__block img {max-width: 250px;}
+}
+
+@media  (max-width: 992px) {
+    .banner_wrap, .banner {height: 450px;}
+    .request .request2 { order: 3; }
+    .header__menu-top { display: none; }
+    .header .burger { display: block; }
+    .header__menu-top li {
+        padding-top: 10px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #9d9d95;
+        position: relative;
+        width: 100%;    
+    }
+    .header__menu-top li a {
+        vertical-align: middle;
+        padding-left: 60px;
+        padding-bottom: 8px;
+        padding-top: 10px;
+        padding-right: 75px;
+    }
+
+    .about__content-text, .request__block-text, .reasons__text, footer , .about_me, 
+    .sertificate_item-text p {font-size: 15px;}
+    .about__content-photo img {max-width: 300px;}
+
+    .reasons__text {flex: 1 1 60%;}
+    .reasons__img {flex: 1 1 40%;}
+    .request__block img {max-width: 200px;}
+
+    .about_me-wrap, .certificates {padding: 20px 0;}
+    .about_me-top img, .about_me-middle img {width: 300px;}
+
+
+}
+
+@media  (max-width: 768px) {
+    section {padding: 30px 0;}
+
+    .banner__text h1 {font-size: 35px;}
+    .banner__text h1::before {top: 6px;}
+    .banner_wrap, .banner {height: 350px;}
+
+    .about__content-text {font-size: 14px;line-height: 1.25;}
+    .about__content-photo img {max-width: 250px;}
+
+    .request__block {flex: 1 1 100%;}
+    .request__block-text, .reasons__text, footer, .about_me, 
+    .sertificate_item-text p {font-size: 14px;}
+    .about_me-top img, .about_me-middle img {width: 200px;}
+    .about_me-top {padding-bottom: 20px;}
+
+    .about_me-wrap, .certificates {padding: 10px 0;}
+    .top_title {font-size: 25px;padding: 20px 0;}
+    h2 {margin: 10px 0;font-size: 20px;}
+    
+}
+
+
+@media  (max-width: 600px) {
+    .header .menu_wrap {width: 30%;}
+    .fa-vk {font-size: 28px;}
+    .header__link-vk {padding: 2px 13px; }
+    .header__link-btn { font-size: 15px;}
+    .header .burger span {font-size: 15px;padding-top: 10px;}
+
+    .banner_wrap, .banner {height: 250px;}
+    .banner__text h1::before {height: 65px;}
+    .banner__text h1 {font-size: 24px;}
+
+    h2 , .about_me h2 {font-size: 18px;}
+    h3 {font-size: 15px;}
+
+    .about__content-photo img {
+        max-width: 180px;
+        border-radius: 0;
+    }
+    .about__content-text, .request__block-text , .reasons__text, footer, .about_me , 
+    .sertificate_item-text p {font-size: 12px;}
+    .request__block img { max-width: 170px; }
+    .reasons__text, .reasons__img  { flex: 1 1 50%;}
+    .reasons__text,  .reasons2 .reasons__text {padding: 0 0 0 20px;}
+
+    .about_me-top img, .about_me-middle img {width: 150px;}
+    .sertificate_item-text {padding-left: 0;}
+}
+
+@media  (max-width: 460px) {
+    .about__content-photo img {
+        max-width: 180px;
+        border-radius: 0;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .about__content { flex-wrap: wrap;}
+    .about__content-text, .about__content-photo {flex: 1 1 100%;}
+    .about__content-photo {order: 1;}
+    .about__content-text {order: 2;}
+
+    .request__block img { max-width: 150px; }
+
+    .reasons {flex-wrap: wrap;padding: 10px 0;}
+    .reasons__text , .reasons__img {flex: 1 1 100%;}
+    .reasons__text, .reasons_wrap .reasons2 .reasons__text {padding: 20px 0 0 0 ;}
+    .reasons2 .reasons__text {order: 2;}
+    .reasons2 .reasons__img {order: 1;}
+
+    footer .copyright {flex-wrap: wrap;}
+    footer .copyright_name {flex: 1 1 100%;padding-bottom: 20px;}
+    footer .develop  {flex: 1 1 100%;}
+
+
+}
+
+
+@media  (max-width: 400px) {
+    .header__link-vk { display: none;}
+    .header__link-btn {font-size: 14px;}
+    .header .burger span , .header__menu-top li  {font-size: 14px;}
+    .header .responsive {top: 60px;}
+
+    .banner__text h1 {font-size: 18px;}
+    .banner__text h1::before {height: 45px;}
+    .banner_wrap, .banner {height: 200px;}
+
+    h2 {font-size: 15px;}
+    .about__content-photo img {max-width: 150px;}
+    .about_me-top img, .about_me-middle img {
+        width: 100%;
+        padding: 0 0 10px 0;
+    }
+
+    .sertificate_item .link {border-bottom: none;}
+}
